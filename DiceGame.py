@@ -1,4 +1,8 @@
 import random
+
+name = input("What is your name?   ")
+print("Hello, {}!".format(name))
+
 print("Rolling the dice・・・")
 all = 0
 for i in range(2):
