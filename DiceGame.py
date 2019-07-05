@@ -10,6 +10,10 @@ for i in range(2):
     print("Die {}: {} ".format(i + 1,num))
     all += int(num)
 print("Total value: {}".format(all))
+
 if all > 7 :
-    print("You Won")
-else: print("You Lose")
+    print("{} Won".format(name))
+    print("やるやん。明日は俺にリベンジさせて。では、どうぞ")
+else:
+    print("{} Lose".format(name))
+    print("負けは次につながるチャンスです！never give up！ほな、いただきます！")
